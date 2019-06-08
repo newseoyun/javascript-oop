@@ -16,6 +16,9 @@ function Persontwo(name, first, second, third){
 Persontwo.prototype.__proto__ = Person.prototype;  // 퍼슨투가 sum을 못찾아서 지정해준것임
 // = Persontwo.prototype = Object.create(Person.prototype);   이게 표준
 
+Persontwo.prototype.constructor = Persontwo;
+
+
 Persontwo.prototype.avg = function(){
     return (this.first + this.second + this.third)/3;
 }
