@@ -25,7 +25,7 @@ Persontwo.prototype.avg = function(){
 
 var Lee = new Persontwo('Lee', 20, 30, 100);
 
-console.log("Lee sum :", Lee.sum());
+console.log("Lee sum :", Lee.sum());  // third 도 더할라면?? 이 강의는 문제가 많은 듯 ㅡㅡ
 console.log("Lee avg :", Lee.avg());
 
 
